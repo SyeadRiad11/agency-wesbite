@@ -1,0 +1,848 @@
+@media (max-width: 1199px){
+    .header_container h1{
+        color: var(--secondary-color);
+        font-size: 30px;
+    }
+
+
+    .testi_review{
+        width: 390px;
+        position: absolute;
+        top:70%;
+        left: 9%;
+        /* transform: translateY(-50%); */
+        color: #ffffff;
+        font-size: 13px;
+        overflow: hidden;
+        font-style: italic;  
+        /* background-color: rebeccapurple;  */
+    }
+    .Testimonials_image{
+        width: 100%;
+    }
+    
+    .Testimonials_image > img{
+        width: 450px;
+    }
+
+}
+
+@media (max-width: 1092px){
+
+
+    .header_container p{
+        color: var(--grey);
+        font-size: 19px;
+    }
+    .header_container h1{
+        color: var(--secondary-color);
+        font-size: 30px;
+    }
+    .header_container i{
+        color: var(--secondary-color);
+       padding-top: 10px;
+    }
+    .header_container button{
+        cursor: pointer;
+        background-color:transparent ;
+        outline: none;
+        color: var(--secondary-color);
+        border: 1px solid white;
+        padding: 8px 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-weight: 700px;
+    }
+    
+    .header_container button:hover{
+        color: var(--dark);
+        cursor: pointer;
+        background-color: var(--secondary-color);
+        border: 1px solid rgb(255, 255, 255);
+    }
+
+    nav .logo h3 {
+        font-size: 26px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-left: 25px;
+        text-decoration: none;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .get__quote_wrapper .fas {
+        margin-right: 40px;
+        font-size: 16px;
+        color: var(--secondary-color);
+        cursor: pointer;
+    }
+
+    .get__quote_wrapper button {
+        border: 2px solid #fff;
+        background-color: transparent;
+        color: var(--secondary-color);
+        padding: 10px 15px;
+        transition: .7s all;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    .service__heading h2{
+        font-size: 35px;
+    }
+
+    .about_section h2 {
+        font-size: 35px;
+        color: var(--primary-color);
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .testi_review{
+        width: 290px;
+        position: absolute;
+        top:85%;
+        left: 8%;
+        /* transform: translateY(-50%); */
+        color: #ffffff;
+        font-size: 11px;
+        overflow: hidden;
+        font-style: italic;  
+        /* background-color: rebeccapurple;  */
+        
+    
+    
+    }
+
+    .clientImag{
+        margin-left: 200px;
+    }
+    .client_name{
+        margin-left: 300px;
+        padding-top: 0px;
+    
+    }
+    .cilents_job {
+        width: 100%;
+        /* background-color: red; */
+        margin-left: 200px;
+        margin-top: -15px;
+    
+        
+    }
+
+
+    .Testimonials_image{
+        width: 100%;
+    }
+    
+    .Testimonials_image > img{
+        width: 350px;
+    }
+ 
+
+    .testomonial_description h2{
+        font-size: 25px;
+        /* width: 505px; */
+        font-weight: bold;
+        line-height: 50px;
+        color: var(--primary-color)
+    }
+    
+    .testomonial_description p{
+        line-height: 30px;
+        font-size: 16px;
+        color: var(--para);
+    }
+
+}
+
+
+
+
+
+
+
+@media (max-width: 940px){
+
+    .header_container p{
+        color: var(--grey);
+        font-size: 18px;
+    }
+    .header_container h1{
+        color: var(--secondary-color);
+        font-size: 30px;
+    }
+    .header_container i{
+        color: var(--secondary-color);
+       padding-top: 15px;
+    }
+    .header_container button{
+        cursor: pointer;
+        background-color:transparent ;
+        outline: none;
+        color: var(--secondary-color);
+        border: 1px solid white;
+        padding: 7px 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-weight: 700px;
+    }
+
+    .get__quote_wrapper{
+        align-items: center;
+        /* display: flex; */
+        flex-wrap: nowrap;
+        /* margin-left: 40px; */
+    }
+
+
+    .get__quote_wrapper .fas {
+        margin-right: 20px;
+        font-size: 14px;
+        color: var(--secondary-color);
+        cursor: pointer;
+    }
+
+    .service__heading h2{
+        font-size: 35px;
+    }
+
+/* about section   */
+
+.about_section h4 {
+
+    background-color: var(--orange);
+    text-align: center;
+    display: inline-block;
+    padding: 10px 15px;
+    color: var(--dark);
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.about_section h2 {
+    font-size: 35px;
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+#part1 , #part2{
+    border: 2px solid rgb(241, 241, 241);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+ 
+}
+
+@media (max-width: 897px){
+
+    .header_container p{
+        color: var(--grey);
+        font-size: 18px;
+    }
+    .header_container h1{
+        color: var(--secondary-color);
+        font-size: 25px;
+    }
+    .header_container i{
+        color: var(--secondary-color);
+       padding-top: 15px;
+    }
+    .header_container button{
+        cursor: pointer;
+        background-color:transparent ;
+        outline: none;
+        color: var(--secondary-color);
+        border: 1px solid white;
+        padding: 7px 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-weight: 700px;
+    }
+    
+    .header_container button:hover{
+        color: var(--dark);
+        cursor: pointer;
+        background-color: var(--secondary-color);
+        border: 1px solid rgb(255, 255, 255);
+    }
+
+    .get__quote_wrapper .fas {
+    display: none;
+    }
+
+    .get__quote_wrapper button {
+        border: 2px solid #fff;
+        background-color: transparent;
+        color: var(--secondary-color);
+        padding:8px 10px;
+        transition: .7s all;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+
+}
+
+
+@media (max-width: 867px){
+
+    .header_container {
+        /* margin-top: 90px; */
+    
+    }
+
+    .header_container p{
+        color: var(--grey);
+        font-size: 18px;
+    }
+    .header_container h1{
+        color: var(--secondary-color);
+        font-size: 23px;
+    }
+    .header_container i{
+        color: var(--secondary-color);
+       padding-top: 15px;
+    }
+    .header_container button{
+        cursor: pointer;
+        background-color:transparent ;
+        outline: none;
+        color: var(--secondary-color);
+        border: 1px solid white;
+        padding: 7px 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-weight: 700px;
+    }
+
+    #hamburger{
+ 
+        display: block;
+        margin-left: auto;
+        cursor: pointer;
+        font-size: 20px;
+        flex:-3;
+        
+        }
+
+
+        nav ul {
+        
+            position: fixed;
+            top: 90px;
+            left: -100%;
+            display: block;
+            height: 100vh;
+            background-color: rgba(9, 15, 27, 0.849);
+            width: 100%;
+            text-align: center;
+            z-index: 120;
+            transition: .5s all linear;
+
+           
+        }
+
+        nav ul li {
+      display: block;
+      padding: 18px;
+    
+        }
+
+        nav ul li a:hover{
+       color: rgb(25, 53, 143);
+       padding: 7px 10px;
+       border: 1px solid rgb(255, 255, 255);
+       border-radius: 4px;
+   
+}
+
+nav ul.show{
+    left:0;
+    transition: .5s all linear;
+
+}
+
+.service__heading h2{
+    font-size: 35px;
+}
+
+/* about section  */
+
+.about_section h4 {
+
+    background-color: var(--orange);
+    text-align: center;
+    display: inline-block;
+    padding: 10px 15px;
+    color: var(--dark);
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.about_section h2 {
+    font-size: 35px;
+    color: var(--noChange);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.about_section p {
+    line-height: 30px;
+}
+
+
+.about_image{
+    width: 100%;
+    margin: 10px auto 0 auto;
+    text-align: center;
+}
+
+.about_image img{
+    width:300px ;
+}
+
+.testi_review{
+    width: 275px;
+    position: absolute;
+    top:85%;
+    left: 10%;
+    /* transform: translateY(-50%); */
+    color: #ffffff;
+    font-size: 11px;
+    overflow: hidden;
+    font-style: italic;  
+    /* background-color: rebeccapurple;  */
+    
+
+
+}
+
+.clientImag{
+    margin-left: 200px;
+}
+.client_name{
+    margin-left: 300px;
+    padding-top: 0px;
+
+}
+.cilents_job {
+    width: 100%;
+    /* background-color: red; */
+    margin-left: 200px;
+    margin-top: -15px;
+
+    
+}
+
+
+.Testimonials_image{
+    width: 100%;
+}
+
+.Testimonials_image > img{
+    width: 320px;
+    margin: 0 auto;
+}
+
+
+.testomonial_description h2{
+    font-size: 25px;
+    /* width: 505px; */
+    font-weight: bold;
+    line-height: 50px;
+    color: var(--primary-color)
+}
+
+.testomonial_description p{
+    line-height: 30px;
+    font-size: 16px;
+    color: var(--para);
+}
+
+.testomonial_description h2{
+    font-size: 30px;
+} 
+
+.footer_container h2{
+    font-size: 25px;
+}
+/* #social_links .fab{
+    padding: 0px;
+} */
+
+.project_Heading h2{
+    font-size: 45px
+}
+
+#part1 , #part2{
+    border: 2px solid rgb(241, 241, 241);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+ 
+
+}
+
+
+
+@media (max-width: 783px){
+    #part1 , #part2{
+        border: 2px solid rgb(241, 241, 241);
+        padding: 10px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+
+@media (max-width: 767px){
+    .Testimonials_image{
+        width: 100%;
+    }
+    
+    .Testimonials_image > img{
+       width: 500px;
+    }
+    
+
+    .testi_review{
+        width: 400px;
+        position: absolute;
+        top:70%;
+        left: 12%;
+        /* transform: translateY(-50%); */
+        color: #ffffff;
+        font-size: 15px;
+        overflow: hidden;
+        font-style: italic;  
+        /* background-color: rebeccapurple;  */
+        
+    
+    
+    }
+    
+    .clientImag{
+        margin-left: 200px;
+    }
+    .client_name{
+        margin-left: 200px;
+        padding-top: 0px;
+    
+    }
+    .cilents_job {
+        width: 100%;
+        /* background-color: red; */
+        margin-left:200px;
+        margin-top: -15px;
+    
+        
+    }
+    
+.Testimonials_image{
+    margin-bottom: 50px;
+}
+
+.testomonial_description h2{
+    font-size: 30px;
+}
+
+.text-center{
+    margin: 20px 0;
+   padding: 0 0 25px 0;
+}
+
+.text-center h2{
+    padding: 10px;
+}
+
+.footer_first{
+    padding-bottom: 22px;
+}
+.footer_first h2{
+    padding: 0 50px;
+}
+
+.footer_second{
+    padding-bottom: 22px;
+}
+
+.footer_last{
+    padding-bottom: 20px;
+}
+
+.bottom_footer{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project_Heading h2{
+    font-size: 45px
+}
+
+
+#part1 , #part2{
+    border: 2px solid rgb(241, 241, 241);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+ 
+
+}
+
+
+
+
+
+
+
+@media(max-width: 576px){
+
+    .header_container h1{
+        color: var(--secondary-color);
+        font-size: 24px;
+    }
+
+
+    .header_container {
+        /* margin-top: 50px; */
+    
+    }
+
+    .head_image {
+        width: 100%;
+        /* height: 200px; */
+        /* background-color: rebeccapurple; */
+        text-align: center;
+     z-index: 100;
+     flex-direction: row-reverse;
+     align-items: center;
+     justify-content: center;
+       margin: 0px auto 20px auto;
+      
+    }
+
+    .head_image img{
+        width:300px ;
+    }
+
+
+    
+.service__heading h2{
+    font-size: 30px;
+}
+
+    
+      .service-clild-heading h4{
+          font-size: 20px;
+          font-weight: 500px;
+          margin-bottom: 10px;
+          font-weight: bold;
+          color: (--dark) ;
+          /* text-align: center; */
+      }
+.service__holder_section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* about section  */
+
+.about_section h4 {
+
+    background-color: var(--orange);
+    text-align: center;
+    display: inline-block;
+    padding: 10px 15px;
+    color: var(--dark);
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.about_section h2 {
+    font-size: 30px;
+    color: var(--noChange);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.about_section p {
+    line-height: 30px;
+}
+
+
+
+.readMore p {
+    color: rgb(0, 22, 224);
+    font-size: 22px;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.about_image{
+    width: 100%;
+    margin: 10px auto 0 auto;
+    text-align: center;
+}
+
+.about_image img{
+    width:320px ;
+}
+
+
+.Testimonials_image{
+    width: 100%;
+}
+
+.Testimonials_image > img{
+   width: 100%;
+   margin: 0 auto;
+}
+
+
+ 
+    
+
+    
+.clientImag{
+    margin-left: 200px;
+}
+.client_name{
+    margin-left: 200px;
+    padding-top: 0px;
+
+}
+.cilents_job {
+    width: 100%;
+    /* background-color: red; */
+    margin-left:200px;
+    margin-top: -15px;
+
+    
+}
+
+    
+.testi_review{
+    width: 280px;
+    position: absolute;
+    top:85%;
+    left: 20%;
+    /* transform: translateY(-50%); */
+    color: #ffffff;
+    font-size: 12px;
+    overflow: hidden;
+    font-style: italic;  
+    /* background-color: rebeccapurple;  */
+    
+
+
+}
+
+
+.Testimonials_image{
+    margin-bottom: 50px;
+}
+.testomonial_description h2{
+    font-size: 30px;
+}
+
+.text-center{
+    margin: 20px 0;
+   
+}
+
+.footer_first{
+    padding-bottom: 22px;
+}
+.footer_first h2{
+    padding: 0 10px;
+}
+
+.footer_second{
+    padding-bottom: 22px;
+}
+
+.footer_last{
+    padding-bottom: 20px;
+}
+
+.bottom_footer{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project_Heading h2{
+    font-size: 40px
+}
+}
+
+
+
+
+
+@media(max-width: 450px){
+    .Testimonials_image{
+        width: 100%;
+    }
+    
+    .Testimonials_image > img{
+       width: 100%;
+       margin: 0 auto;
+    }
+    
+    
+     
+        
+    
+        
+    .clientImag{
+        margin-left: 190px;
+    }
+    .client_name{
+        margin-left: 190px;
+        padding-top: 0px;
+    
+    }
+    .cilents_job {
+        width: 100%;
+        /* background-color: red; */
+        margin-left:190px;
+        margin-top: -15px;
+    
+        
+    }
+    
+        
+    .testi_review{
+        width: 280px;
+        position: absolute;
+        top:85%;
+        left: 9%;
+        /* transform: translateY(-50%); */
+        color: #ffffff;
+        font-size: 12px;
+        overflow: hidden;
+        font-style: italic;  
+        /* background-color: rebeccapurple;  */
+        
+    
+    
+    }
+}
