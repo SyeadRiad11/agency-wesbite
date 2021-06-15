@@ -609,6 +609,10 @@ nav ul.show{
 
 
 @media(max-width: 576px){
+    
+     .quote_button{
+        display: none;
+    }
 
     .header_container h1{
         color: var(--secondary-color);
